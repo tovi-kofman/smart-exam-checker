@@ -1,0 +1,700 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\user1\\Desktop\\smart-exam-checker\\Server\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3D0F5042-3B8E-4D8B-B8B3-096123751620}|Server.data\\Server.data.csproj|c:\\users\\user1\\desktop\\smart-exam-checker\\server\\server.data\\repository\\examrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D0F5042-3B8E-4D8B-B8B3-096123751620}|Server.data\\Server.data.csproj|solutionrelative:server.data\\repository\\examrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D0F5042-3B8E-4D8B-B8B3-096123751620}|Server.data\\Server.data.csproj|c:\\users\\user1\\desktop\\smart-exam-checker\\server\\server.data\\repository\\graderepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D0F5042-3B8E-4D8B-B8B3-096123751620}|Server.data\\Server.data.csproj|solutionrelative:server.data\\repository\\graderepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36F8DBE5-435B-43D7-BC47-28CD751C6AB9}|Server.API\\Server.API.csproj|c:\\users\\user1\\desktop\\smart-exam-checker\\server\\server.api\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36F8DBE5-435B-43D7-BC47-28CD751C6AB9}|Server.API\\Server.API.csproj|solutionrelative:server.api\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A46C755-787C-4604-BE32-BF4716774795}|Server.Core\\Server.Core.csproj|c:\\users\\user1\\desktop\\smart-exam-checker\\server\\server.core\\irepository\\irepositorymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A46C755-787C-4604-BE32-BF4716774795}|Server.Core\\Server.Core.csproj|solutionrelative:server.core\\irepository\\irepositorymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D0F5042-3B8E-4D8B-B8B3-096123751620}|Server.data\\Server.data.csproj|c:\\users\\user1\\desktop\\smart-exam-checker\\server\\server.data\\repository\\repositorymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D0F5042-3B8E-4D8B-B8B3-096123751620}|Server.data\\Server.data.csproj|solutionrelative:server.data\\repository\\repositorymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D0F5042-3B8E-4D8B-B8B3-096123751620}|Server.data\\Server.data.csproj|c:\\users\\user1\\desktop\\smart-exam-checker\\server\\server.data\\repository\\rolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D0F5042-3B8E-4D8B-B8B3-096123751620}|Server.data\\Server.data.csproj|solutionrelative:server.data\\repository\\rolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D0F5042-3B8E-4D8B-B8B3-096123751620}|Server.data\\Server.data.csproj|c:\\users\\user1\\desktop\\smart-exam-checker\\server\\server.data\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D0F5042-3B8E-4D8B-B8B3-096123751620}|Server.data\\Server.data.csproj|solutionrelative:server.data\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D0F5042-3B8E-4D8B-B8B3-096123751620}|Server.data\\Server.data.csproj|c:\\users\\user1\\desktop\\smart-exam-checker\\server\\server.data\\repository\\topicrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D0F5042-3B8E-4D8B-B8B3-096123751620}|Server.data\\Server.data.csproj|solutionrelative:server.data\\repository\\topicrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D0F5042-3B8E-4D8B-B8B3-096123751620}|Server.data\\Server.data.csproj|c:\\users\\user1\\desktop\\smart-exam-checker\\server\\server.data\\repository\\tagrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D0F5042-3B8E-4D8B-B8B3-096123751620}|Server.data\\Server.data.csproj|solutionrelative:server.data\\repository\\tagrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D0F5042-3B8E-4D8B-B8B3-096123751620}|Server.data\\Server.data.csproj|c:\\users\\user1\\desktop\\smart-exam-checker\\server\\server.data\\repository\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D0F5042-3B8E-4D8B-B8B3-096123751620}|Server.data\\Server.data.csproj|solutionrelative:server.data\\repository\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D0F5042-3B8E-4D8B-B8B3-096123751620}|Server.data\\Server.data.csproj|c:\\users\\user1\\desktop\\smart-exam-checker\\server\\server.data\\repository\\permissionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D0F5042-3B8E-4D8B-B8B3-096123751620}|Server.data\\Server.data.csproj|solutionrelative:server.data\\repository\\permissionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D0F5042-3B8E-4D8B-B8B3-096123751620}|Server.data\\Server.data.csproj|c:\\users\\user1\\desktop\\smart-exam-checker\\server\\server.data\\repository\\institutionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D0F5042-3B8E-4D8B-B8B3-096123751620}|Server.data\\Server.data.csproj|solutionrelative:server.data\\repository\\institutionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D0F5042-3B8E-4D8B-B8B3-096123751620}|Server.data\\Server.data.csproj|c:\\users\\user1\\desktop\\smart-exam-checker\\server\\server.data\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D0F5042-3B8E-4D8B-B8B3-096123751620}|Server.data\\Server.data.csproj|solutionrelative:server.data\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D0F5042-3B8E-4D8B-B8B3-096123751620}|Server.data\\Server.data.csproj|c:\\users\\user1\\desktop\\smart-exam-checker\\server\\server.data\\idatacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D0F5042-3B8E-4D8B-B8B3-096123751620}|Server.data\\Server.data.csproj|solutionrelative:server.data\\idatacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A46C755-787C-4604-BE32-BF4716774795}|Server.Core\\Server.Core.csproj|c:\\users\\user1\\desktop\\smart-exam-checker\\server\\server.core\\irepository\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A46C755-787C-4604-BE32-BF4716774795}|Server.Core\\Server.Core.csproj|solutionrelative:server.core\\irepository\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A46C755-787C-4604-BE32-BF4716774795}|Server.Core\\Server.Core.csproj|c:\\users\\user1\\desktop\\smart-exam-checker\\server\\server.core\\entities\\institution.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A46C755-787C-4604-BE32-BF4716774795}|Server.Core\\Server.Core.csproj|solutionrelative:server.core\\entities\\institution.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A46C755-787C-4604-BE32-BF4716774795}|Server.Core\\Server.Core.csproj|c:\\users\\user1\\desktop\\smart-exam-checker\\server\\server.core\\irepository\\iinstitutionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A46C755-787C-4604-BE32-BF4716774795}|Server.Core\\Server.Core.csproj|solutionrelative:server.core\\irepository\\iinstitutionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A46C755-787C-4604-BE32-BF4716774795}|Server.Core\\Server.Core.csproj|c:\\users\\user1\\desktop\\smart-exam-checker\\server\\server.core\\irepository\\igraderepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A46C755-787C-4604-BE32-BF4716774795}|Server.Core\\Server.Core.csproj|solutionrelative:server.core\\irepository\\igraderepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A46C755-787C-4604-BE32-BF4716774795}|Server.Core\\Server.Core.csproj|c:\\users\\user1\\desktop\\smart-exam-checker\\server\\server.core\\irepository\\iexamrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A46C755-787C-4604-BE32-BF4716774795}|Server.Core\\Server.Core.csproj|solutionrelative:server.core\\irepository\\iexamrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A46C755-787C-4604-BE32-BF4716774795}|Server.Core\\Server.Core.csproj|c:\\users\\user1\\desktop\\smart-exam-checker\\server\\server.core\\iservices\\igradeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A46C755-787C-4604-BE32-BF4716774795}|Server.Core\\Server.Core.csproj|solutionrelative:server.core\\iservices\\igradeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D0F5042-3B8E-4D8B-B8B3-096123751620}|Server.data\\Server.data.csproj|c:\\users\\user1\\desktop\\smart-exam-checker\\server\\server.data\\server.data.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{3D0F5042-3B8E-4D8B-B8B3-096123751620}|Server.data\\Server.data.csproj|solutionrelative:server.data\\server.data.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A46C755-787C-4604-BE32-BF4716774795}|Server.Core\\Server.Core.csproj|c:\\users\\user1\\desktop\\smart-exam-checker\\server\\server.core\\iservices\\iroleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A46C755-787C-4604-BE32-BF4716774795}|Server.Core\\Server.Core.csproj|solutionrelative:server.core\\iservices\\iroleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A46C755-787C-4604-BE32-BF4716774795}|Server.Core\\Server.Core.csproj|c:\\users\\user1\\desktop\\smart-exam-checker\\server\\server.core\\irepository\\ipermissionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A46C755-787C-4604-BE32-BF4716774795}|Server.Core\\Server.Core.csproj|solutionrelative:server.core\\irepository\\ipermissionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A46C755-787C-4604-BE32-BF4716774795}|Server.Core\\Server.Core.csproj|c:\\users\\user1\\desktop\\smart-exam-checker\\server\\server.core\\iservices\\iexamservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A46C755-787C-4604-BE32-BF4716774795}|Server.Core\\Server.Core.csproj|solutionrelative:server.core\\iservices\\iexamservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A46C755-787C-4604-BE32-BF4716774795}|Server.Core\\Server.Core.csproj|c:\\users\\user1\\desktop\\smart-exam-checker\\server\\server.core\\irepository\\irolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A46C755-787C-4604-BE32-BF4716774795}|Server.Core\\Server.Core.csproj|solutionrelative:server.core\\irepository\\irolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A46C755-787C-4604-BE32-BF4716774795}|Server.Core\\Server.Core.csproj|c:\\users\\user1\\desktop\\smart-exam-checker\\server\\server.core\\irepository\\itagrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A46C755-787C-4604-BE32-BF4716774795}|Server.Core\\Server.Core.csproj|solutionrelative:server.core\\irepository\\itagrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A46C755-787C-4604-BE32-BF4716774795}|Server.Core\\Server.Core.csproj|c:\\users\\user1\\desktop\\smart-exam-checker\\server\\server.core\\irepository\\itopicrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A46C755-787C-4604-BE32-BF4716774795}|Server.Core\\Server.Core.csproj|solutionrelative:server.core\\irepository\\itopicrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A46C755-787C-4604-BE32-BF4716774795}|Server.Core\\Server.Core.csproj|c:\\users\\user1\\desktop\\smart-exam-checker\\server\\server.core\\irepository\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A46C755-787C-4604-BE32-BF4716774795}|Server.Core\\Server.Core.csproj|solutionrelative:server.core\\irepository\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A46C755-787C-4604-BE32-BF4716774795}|Server.Core\\Server.Core.csproj|c:\\users\\user1\\desktop\\smart-exam-checker\\server\\server.core\\iservices\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A46C755-787C-4604-BE32-BF4716774795}|Server.Core\\Server.Core.csproj|solutionrelative:server.core\\iservices\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A46C755-787C-4604-BE32-BF4716774795}|Server.Core\\Server.Core.csproj|c:\\users\\user1\\desktop\\smart-exam-checker\\server\\server.core\\iservices\\itopicservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A46C755-787C-4604-BE32-BF4716774795}|Server.Core\\Server.Core.csproj|solutionrelative:server.core\\iservices\\itopicservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A46C755-787C-4604-BE32-BF4716774795}|Server.Core\\Server.Core.csproj|c:\\users\\user1\\desktop\\smart-exam-checker\\server\\server.core\\iservices\\itagservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A46C755-787C-4604-BE32-BF4716774795}|Server.Core\\Server.Core.csproj|solutionrelative:server.core\\iservices\\itagservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A46C755-787C-4604-BE32-BF4716774795}|Server.Core\\Server.Core.csproj|c:\\users\\user1\\desktop\\smart-exam-checker\\server\\server.core\\iservices\\ipermissionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A46C755-787C-4604-BE32-BF4716774795}|Server.Core\\Server.Core.csproj|solutionrelative:server.core\\iservices\\ipermissionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A46C755-787C-4604-BE32-BF4716774795}|Server.Core\\Server.Core.csproj|c:\\users\\user1\\desktop\\smart-exam-checker\\server\\server.core\\iservices\\iinstitutionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A46C755-787C-4604-BE32-BF4716774795}|Server.Core\\Server.Core.csproj|solutionrelative:server.core\\iservices\\iinstitutionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A46C755-787C-4604-BE32-BF4716774795}|Server.Core\\Server.Core.csproj|c:\\users\\user1\\desktop\\smart-exam-checker\\server\\server.core\\entities\\exam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A46C755-787C-4604-BE32-BF4716774795}|Server.Core\\Server.Core.csproj|solutionrelative:server.core\\entities\\exam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A46C755-787C-4604-BE32-BF4716774795}|Server.Core\\Server.Core.csproj|c:\\users\\user1\\desktop\\smart-exam-checker\\server\\server.core\\entities\\permission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A46C755-787C-4604-BE32-BF4716774795}|Server.Core\\Server.Core.csproj|solutionrelative:server.core\\entities\\permission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A46C755-787C-4604-BE32-BF4716774795}|Server.Core\\Server.Core.csproj|c:\\users\\user1\\desktop\\smart-exam-checker\\server\\server.core\\entities\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A46C755-787C-4604-BE32-BF4716774795}|Server.Core\\Server.Core.csproj|solutionrelative:server.core\\entities\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A46C755-787C-4604-BE32-BF4716774795}|Server.Core\\Server.Core.csproj|c:\\users\\user1\\desktop\\smart-exam-checker\\server\\server.core\\entities\\tag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A46C755-787C-4604-BE32-BF4716774795}|Server.Core\\Server.Core.csproj|solutionrelative:server.core\\entities\\tag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A46C755-787C-4604-BE32-BF4716774795}|Server.Core\\Server.Core.csproj|c:\\users\\user1\\desktop\\smart-exam-checker\\server\\server.core\\entities\\grade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A46C755-787C-4604-BE32-BF4716774795}|Server.Core\\Server.Core.csproj|solutionrelative:server.core\\entities\\grade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A46C755-787C-4604-BE32-BF4716774795}|Server.Core\\Server.Core.csproj|c:\\users\\user1\\desktop\\smart-exam-checker\\server\\server.core\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A46C755-787C-4604-BE32-BF4716774795}|Server.Core\\Server.Core.csproj|solutionrelative:server.core\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A46C755-787C-4604-BE32-BF4716774795}|Server.Core\\Server.Core.csproj|c:\\users\\user1\\desktop\\smart-exam-checker\\server\\server.core\\entities\\topic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A46C755-787C-4604-BE32-BF4716774795}|Server.Core\\Server.Core.csproj|solutionrelative:server.core\\entities\\topic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "WeatherForecast.cs",
+              "DocumentMoniker": "C:\\Users\\user1\\Desktop\\smart-exam-checker\\Server\\Server.API\\WeatherForecast.cs",
+              "RelativeDocumentMoniker": "Server.API\\WeatherForecast.cs",
+              "ToolTip": "C:\\Users\\user1\\Desktop\\smart-exam-checker\\Server\\Server.API\\WeatherForecast.cs",
+              "RelativeToolTip": "Server.API\\WeatherForecast.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-01T21:44:20.102Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RepositoryManager.cs",
+              "DocumentMoniker": "C:\\Users\\user1\\Desktop\\smart-exam-checker\\Server\\Server.Data\\Repository\\RepositoryManager.cs",
+              "RelativeDocumentMoniker": "Server.Data\\Repository\\RepositoryManager.cs",
+              "ToolTip": "C:\\Users\\user1\\Desktop\\smart-exam-checker\\Server\\Server.Data\\Repository\\RepositoryManager.cs",
+              "RelativeToolTip": "Server.Data\\Repository\\RepositoryManager.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAIwAEAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-01T20:51:59.669Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "RoleRepository.cs",
+              "DocumentMoniker": "C:\\Users\\user1\\Desktop\\smart-exam-checker\\Server\\Server.Data\\Repository\\RoleRepository.cs",
+              "RelativeDocumentMoniker": "Server.Data\\Repository\\RoleRepository.cs",
+              "ToolTip": "C:\\Users\\user1\\Desktop\\smart-exam-checker\\Server\\Server.Data\\Repository\\RoleRepository.cs",
+              "RelativeToolTip": "Server.Data\\Repository\\RoleRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-01T20:52:35.531Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "TagRepository.cs",
+              "DocumentMoniker": "C:\\Users\\user1\\Desktop\\smart-exam-checker\\Server\\Server.Data\\Repository\\TagRepository.cs",
+              "RelativeDocumentMoniker": "Server.Data\\Repository\\TagRepository.cs",
+              "ToolTip": "C:\\Users\\user1\\Desktop\\smart-exam-checker\\Server\\Server.Data\\Repository\\TagRepository.cs",
+              "RelativeToolTip": "Server.Data\\Repository\\TagRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-01T20:52:48.979Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "TopicRepository.cs",
+              "DocumentMoniker": "C:\\Users\\user1\\Desktop\\smart-exam-checker\\Server\\Server.Data\\Repository\\TopicRepository.cs",
+              "RelativeDocumentMoniker": "Server.Data\\Repository\\TopicRepository.cs",
+              "ToolTip": "C:\\Users\\user1\\Desktop\\smart-exam-checker\\Server\\Server.Data\\Repository\\TopicRepository.cs",
+              "RelativeToolTip": "Server.Data\\Repository\\TopicRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-01T20:53:10.475Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\user1\\Desktop\\smart-exam-checker\\Server\\Server.Data\\Repository\\UserRepository.cs",
+              "RelativeDocumentMoniker": "Server.Data\\Repository\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\user1\\Desktop\\smart-exam-checker\\Server\\Server.Data\\Repository\\UserRepository.cs",
+              "RelativeToolTip": "Server.Data\\Repository\\UserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-01T20:53:23.932Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GradeRepository.cs",
+              "DocumentMoniker": "C:\\Users\\user1\\Desktop\\smart-exam-checker\\Server\\Server.Data\\Repository\\GradeRepository.cs",
+              "RelativeDocumentMoniker": "Server.Data\\Repository\\GradeRepository.cs",
+              "ToolTip": "C:\\Users\\user1\\Desktop\\smart-exam-checker\\Server\\Server.Data\\Repository\\GradeRepository.cs",
+              "RelativeToolTip": "Server.Data\\Repository\\GradeRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-01T20:48:12.68Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ExamRepository.cs",
+              "DocumentMoniker": "C:\\Users\\user1\\Desktop\\smart-exam-checker\\Server\\Server.Data\\Repository\\ExamRepository.cs",
+              "RelativeDocumentMoniker": "Server.Data\\Repository\\ExamRepository.cs",
+              "ToolTip": "C:\\Users\\user1\\Desktop\\smart-exam-checker\\Server\\Server.Data\\Repository\\ExamRepository.cs",
+              "RelativeToolTip": "Server.Data\\Repository\\ExamRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-01T20:47:15.96Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Repository.cs",
+              "DocumentMoniker": "C:\\Users\\user1\\Desktop\\smart-exam-checker\\Server\\Server.Data\\Repository\\Repository.cs",
+              "RelativeDocumentMoniker": "Server.Data\\Repository\\Repository.cs",
+              "ToolTip": "C:\\Users\\user1\\Desktop\\smart-exam-checker\\Server\\Server.Data\\Repository\\Repository.cs",
+              "RelativeToolTip": "Server.Data\\Repository\\Repository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-01T20:50:16.732Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "PermissionRepository.cs",
+              "DocumentMoniker": "C:\\Users\\user1\\Desktop\\smart-exam-checker\\Server\\Server.Data\\Repository\\PermissionRepository.cs",
+              "RelativeDocumentMoniker": "Server.Data\\Repository\\PermissionRepository.cs",
+              "ToolTip": "C:\\Users\\user1\\Desktop\\smart-exam-checker\\Server\\Server.Data\\Repository\\PermissionRepository.cs",
+              "RelativeToolTip": "Server.Data\\Repository\\PermissionRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-01T20:48:45.607Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IRepositoryManager.cs",
+              "DocumentMoniker": "C:\\Users\\user1\\Desktop\\smart-exam-checker\\Server\\Server.Core\\IRepository\\IRepositoryManager.cs",
+              "RelativeDocumentMoniker": "Server.Core\\IRepository\\IRepositoryManager.cs",
+              "ToolTip": "C:\\Users\\user1\\Desktop\\smart-exam-checker\\Server\\Server.Core\\IRepository\\IRepositoryManager.cs",
+              "RelativeToolTip": "Server.Core\\IRepository\\IRepositoryManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-01T20:23:48.206Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "InstitutionRepository.cs",
+              "DocumentMoniker": "C:\\Users\\user1\\Desktop\\smart-exam-checker\\Server\\Server.Data\\Repository\\InstitutionRepository.cs",
+              "RelativeDocumentMoniker": "Server.Data\\Repository\\InstitutionRepository.cs",
+              "ToolTip": "C:\\Users\\user1\\Desktop\\smart-exam-checker\\Server\\Server.Data\\Repository\\InstitutionRepository.cs",
+              "RelativeToolTip": "Server.Data\\Repository\\InstitutionRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-01T20:48:33.444Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "DataContext.cs",
+              "DocumentMoniker": "C:\\Users\\user1\\Desktop\\smart-exam-checker\\Server\\Server.data\\DataContext.cs",
+              "RelativeDocumentMoniker": "Server.data\\DataContext.cs",
+              "ToolTip": "C:\\Users\\user1\\Desktop\\smart-exam-checker\\Server\\Server.data\\DataContext.cs",
+              "RelativeToolTip": "Server.data\\DataContext.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAA1wBYAAABVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-01T21:14:18.328Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IDataContext.cs",
+              "DocumentMoniker": "C:\\Users\\user1\\Desktop\\smart-exam-checker\\Server\\Server.Data\\IDataContext.cs",
+              "RelativeDocumentMoniker": "Server.Data\\IDataContext.cs",
+              "ToolTip": "C:\\Users\\user1\\Desktop\\smart-exam-checker\\Server\\Server.Data\\IDataContext.cs",
+              "RelativeToolTip": "Server.Data\\IDataContext.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABUAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-01T21:15:20.687Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "C:\\Users\\user1\\Desktop\\smart-exam-checker\\Server\\Server.Core\\IRepository\\IRepository.cs",
+              "RelativeDocumentMoniker": "Server.Core\\IRepository\\IRepository.cs",
+              "ToolTip": "C:\\Users\\user1\\Desktop\\smart-exam-checker\\Server\\Server.Core\\IRepository\\IRepository.cs",
+              "RelativeToolTip": "Server.Core\\IRepository\\IRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-01T20:21:22.561Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Institution.cs",
+              "DocumentMoniker": "C:\\Users\\user1\\Desktop\\smart-exam-checker\\Server\\Server.Core\\Entities\\Institution.cs",
+              "RelativeDocumentMoniker": "Server.Core\\Entities\\Institution.cs",
+              "ToolTip": "C:\\Users\\user1\\Desktop\\smart-exam-checker\\Server\\Server.Core\\Entities\\Institution.cs",
+              "RelativeToolTip": "Server.Core\\Entities\\Institution.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-01T19:58:35.547Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "IInstitutionRepository.cs",
+              "DocumentMoniker": "C:\\Users\\user1\\Desktop\\smart-exam-checker\\Server\\Server.Core\\IRepository\\IInstitutionRepository.cs",
+              "RelativeDocumentMoniker": "Server.Core\\IRepository\\IInstitutionRepository.cs",
+              "ToolTip": "C:\\Users\\user1\\Desktop\\smart-exam-checker\\Server\\Server.Core\\IRepository\\IInstitutionRepository.cs",
+              "RelativeToolTip": "Server.Core\\IRepository\\IInstitutionRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-01T20:24:21.911Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "IGradeRepository.cs",
+              "DocumentMoniker": "C:\\Users\\user1\\Desktop\\smart-exam-checker\\Server\\Server.Core\\IRepository\\IGradeRepository.cs",
+              "RelativeDocumentMoniker": "Server.Core\\IRepository\\IGradeRepository.cs",
+              "ToolTip": "C:\\Users\\user1\\Desktop\\smart-exam-checker\\Server\\Server.Core\\IRepository\\IGradeRepository.cs",
+              "RelativeToolTip": "Server.Core\\IRepository\\IGradeRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-01T20:24:44.857Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "IExamRepository.cs",
+              "DocumentMoniker": "C:\\Users\\user1\\Desktop\\smart-exam-checker\\Server\\Server.Core\\IRepository\\IExamRepository.cs",
+              "RelativeDocumentMoniker": "Server.Core\\IRepository\\IExamRepository.cs",
+              "ToolTip": "C:\\Users\\user1\\Desktop\\smart-exam-checker\\Server\\Server.Core\\IRepository\\IExamRepository.cs",
+              "RelativeToolTip": "Server.Core\\IRepository\\IExamRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-01T20:22:49.966Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Server.Data",
+              "DocumentMoniker": "C:\\Users\\user1\\Desktop\\smart-exam-checker\\Server\\Server.data\\Server.Data.csproj",
+              "RelativeDocumentMoniker": "Server.data\\Server.Data.csproj",
+              "ToolTip": "C:\\Users\\user1\\Desktop\\smart-exam-checker\\Server\\Server.data\\Server.Data.csproj",
+              "RelativeToolTip": "Server.data\\Server.Data.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-03-01T20:59:25.544Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "IGradeService.cs",
+              "DocumentMoniker": "C:\\Users\\user1\\Desktop\\smart-exam-checker\\Server\\Server.Core\\IServices\\IGradeService.cs",
+              "RelativeDocumentMoniker": "Server.Core\\IServices\\IGradeService.cs",
+              "ToolTip": "C:\\Users\\user1\\Desktop\\smart-exam-checker\\Server\\Server.Core\\IServices\\IGradeService.cs",
+              "RelativeToolTip": "Server.Core\\IServices\\IGradeService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-01T20:04:46.772Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "IRoleService.cs",
+              "DocumentMoniker": "C:\\Users\\user1\\Desktop\\smart-exam-checker\\Server\\Server.Core\\IServices\\IRoleService.cs",
+              "RelativeDocumentMoniker": "Server.Core\\IServices\\IRoleService.cs",
+              "ToolTip": "C:\\Users\\user1\\Desktop\\smart-exam-checker\\Server\\Server.Core\\IServices\\IRoleService.cs",
+              "RelativeToolTip": "Server.Core\\IServices\\IRoleService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-01T20:04:28.424Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "IPermissionRepository.cs",
+              "DocumentMoniker": "C:\\Users\\user1\\Desktop\\smart-exam-checker\\Server\\Server.Core\\IRepository\\IPermissionRepository.cs",
+              "RelativeDocumentMoniker": "Server.Core\\IRepository\\IPermissionRepository.cs",
+              "ToolTip": "C:\\Users\\user1\\Desktop\\smart-exam-checker\\Server\\Server.Core\\IRepository\\IPermissionRepository.cs",
+              "RelativeToolTip": "Server.Core\\IRepository\\IPermissionRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-01T20:25:02.788Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "IExamService.cs",
+              "DocumentMoniker": "C:\\Users\\user1\\Desktop\\smart-exam-checker\\Server\\Server.Core\\IServices\\IExamService.cs",
+              "RelativeDocumentMoniker": "Server.Core\\IServices\\IExamService.cs",
+              "ToolTip": "C:\\Users\\user1\\Desktop\\smart-exam-checker\\Server\\Server.Core\\IServices\\IExamService.cs",
+              "RelativeToolTip": "Server.Core\\IServices\\IExamService.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-01T20:03:39.443Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "IRoleRepository.cs",
+              "DocumentMoniker": "C:\\Users\\user1\\Desktop\\smart-exam-checker\\Server\\Server.Core\\IRepository\\IRoleRepository.cs",
+              "RelativeDocumentMoniker": "Server.Core\\IRepository\\IRoleRepository.cs",
+              "ToolTip": "C:\\Users\\user1\\Desktop\\smart-exam-checker\\Server\\Server.Core\\IRepository\\IRoleRepository.cs",
+              "RelativeToolTip": "Server.Core\\IRepository\\IRoleRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-01T20:23:00.12Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ITagRepository.cs",
+              "DocumentMoniker": "C:\\Users\\user1\\Desktop\\smart-exam-checker\\Server\\Server.Core\\IRepository\\ITagRepository.cs",
+              "RelativeDocumentMoniker": "Server.Core\\IRepository\\ITagRepository.cs",
+              "ToolTip": "C:\\Users\\user1\\Desktop\\smart-exam-checker\\Server\\Server.Core\\IRepository\\ITagRepository.cs",
+              "RelativeToolTip": "Server.Core\\IRepository\\ITagRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-01T20:23:24.176Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "ITopicRepository.cs",
+              "DocumentMoniker": "C:\\Users\\user1\\Desktop\\smart-exam-checker\\Server\\Server.Core\\IRepository\\ITopicRepository.cs",
+              "RelativeDocumentMoniker": "Server.Core\\IRepository\\ITopicRepository.cs",
+              "ToolTip": "C:\\Users\\user1\\Desktop\\smart-exam-checker\\Server\\Server.Core\\IRepository\\ITopicRepository.cs",
+              "RelativeToolTip": "Server.Core\\IRepository\\ITopicRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-01T20:23:10.067Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\user1\\Desktop\\smart-exam-checker\\Server\\Server.Core\\IRepository\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "Server.Core\\IRepository\\IUserRepository.cs",
+              "ToolTip": "C:\\Users\\user1\\Desktop\\smart-exam-checker\\Server\\Server.Core\\IRepository\\IUserRepository.cs",
+              "RelativeToolTip": "Server.Core\\IRepository\\IUserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-01T20:22:33.985Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "C:\\Users\\user1\\Desktop\\smart-exam-checker\\Server\\Server.Core\\IServices\\IUserService.cs",
+              "RelativeDocumentMoniker": "Server.Core\\IServices\\IUserService.cs",
+              "ToolTip": "C:\\Users\\user1\\Desktop\\smart-exam-checker\\Server\\Server.Core\\IServices\\IUserService.cs",
+              "RelativeToolTip": "Server.Core\\IServices\\IUserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-01T20:02:58.422Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "IPermissionService.cs",
+              "DocumentMoniker": "C:\\Users\\user1\\Desktop\\smart-exam-checker\\Server\\Server.Core\\IServices\\IPermissionService.cs",
+              "RelativeDocumentMoniker": "Server.Core\\IServices\\IPermissionService.cs",
+              "ToolTip": "C:\\Users\\user1\\Desktop\\smart-exam-checker\\Server\\Server.Core\\IServices\\IPermissionService.cs",
+              "RelativeToolTip": "Server.Core\\IServices\\IPermissionService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-01T20:07:04.155Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "ITagService.cs",
+              "DocumentMoniker": "C:\\Users\\user1\\Desktop\\smart-exam-checker\\Server\\Server.Core\\IServices\\ITagService.cs",
+              "RelativeDocumentMoniker": "Server.Core\\IServices\\ITagService.cs",
+              "ToolTip": "C:\\Users\\user1\\Desktop\\smart-exam-checker\\Server\\Server.Core\\IServices\\ITagService.cs",
+              "RelativeToolTip": "Server.Core\\IServices\\ITagService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-01T20:07:29.285Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "ITopicService.cs",
+              "DocumentMoniker": "C:\\Users\\user1\\Desktop\\smart-exam-checker\\Server\\Server.Core\\IServices\\ITopicService.cs",
+              "RelativeDocumentMoniker": "Server.Core\\IServices\\ITopicService.cs",
+              "ToolTip": "C:\\Users\\user1\\Desktop\\smart-exam-checker\\Server\\Server.Core\\IServices\\ITopicService.cs",
+              "RelativeToolTip": "Server.Core\\IServices\\ITopicService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-01T20:09:09.501Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "IInstitutionService.cs",
+              "DocumentMoniker": "C:\\Users\\user1\\Desktop\\smart-exam-checker\\Server\\Server.Core\\IServices\\IInstitutionService.cs",
+              "RelativeDocumentMoniker": "Server.Core\\IServices\\IInstitutionService.cs",
+              "ToolTip": "C:\\Users\\user1\\Desktop\\smart-exam-checker\\Server\\Server.Core\\IServices\\IInstitutionService.cs",
+              "RelativeToolTip": "Server.Core\\IServices\\IInstitutionService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-01T20:05:42.728Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Exam.cs",
+              "DocumentMoniker": "C:\\Users\\user1\\Desktop\\smart-exam-checker\\Server\\Server.Core\\Entities\\Exam.cs",
+              "RelativeDocumentMoniker": "Server.Core\\Entities\\Exam.cs",
+              "ToolTip": "C:\\Users\\user1\\Desktop\\smart-exam-checker\\Server\\Server.Core\\Entities\\Exam.cs",
+              "RelativeToolTip": "Server.Core\\Entities\\Exam.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAoAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-01T19:46:00.492Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Tag.cs",
+              "DocumentMoniker": "C:\\Users\\user1\\Desktop\\smart-exam-checker\\Server\\Server.Core\\Entities\\Tag.cs",
+              "RelativeDocumentMoniker": "Server.Core\\Entities\\Tag.cs",
+              "ToolTip": "C:\\Users\\user1\\Desktop\\smart-exam-checker\\Server\\Server.Core\\Entities\\Tag.cs",
+              "RelativeToolTip": "Server.Core\\Entities\\Tag.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-01T19:50:28.997Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Permission.cs",
+              "DocumentMoniker": "C:\\Users\\user1\\Desktop\\smart-exam-checker\\Server\\Server.Core\\Entities\\Permission.cs",
+              "RelativeDocumentMoniker": "Server.Core\\Entities\\Permission.cs",
+              "ToolTip": "C:\\Users\\user1\\Desktop\\smart-exam-checker\\Server\\Server.Core\\Entities\\Permission.cs",
+              "RelativeToolTip": "Server.Core\\Entities\\Permission.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-01T19:48:06.969Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "Topic.cs",
+              "DocumentMoniker": "C:\\Users\\user1\\Desktop\\smart-exam-checker\\Server\\Server.Core\\Entities\\Topic.cs",
+              "RelativeDocumentMoniker": "Server.Core\\Entities\\Topic.cs",
+              "ToolTip": "C:\\Users\\user1\\Desktop\\smart-exam-checker\\Server\\Server.Core\\Entities\\Topic.cs",
+              "RelativeToolTip": "Server.Core\\Entities\\Topic.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-01T19:49:34.281Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Role.cs",
+              "DocumentMoniker": "C:\\Users\\user1\\Desktop\\smart-exam-checker\\Server\\Server.Core\\Entities\\Role.cs",
+              "RelativeDocumentMoniker": "Server.Core\\Entities\\Role.cs",
+              "ToolTip": "C:\\Users\\user1\\Desktop\\smart-exam-checker\\Server\\Server.Core\\Entities\\Role.cs",
+              "RelativeToolTip": "Server.Core\\Entities\\Role.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-01T19:47:44.476Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\user1\\Desktop\\smart-exam-checker\\Server\\Server.Core\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "Server.Core\\Entities\\User.cs",
+              "ToolTip": "C:\\Users\\user1\\Desktop\\smart-exam-checker\\Server\\Server.Core\\Entities\\User.cs",
+              "RelativeToolTip": "Server.Core\\Entities\\User.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAA5wBYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-01T19:45:43.519Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Grade.cs",
+              "DocumentMoniker": "C:\\Users\\user1\\Desktop\\smart-exam-checker\\Server\\Server.Core\\Entities\\Grade.cs",
+              "RelativeDocumentMoniker": "Server.Core\\Entities\\Grade.cs",
+              "ToolTip": "C:\\Users\\user1\\Desktop\\smart-exam-checker\\Server\\Server.Core\\Entities\\Grade.cs",
+              "RelativeToolTip": "Server.Core\\Entities\\Grade.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-01T19:47:28.392Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
