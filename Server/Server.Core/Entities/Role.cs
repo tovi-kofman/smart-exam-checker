@@ -13,5 +13,7 @@ namespace Server.Core.Entities
         public string Description { get; set; }
         public DateTime CreatedAt { get; set; } = DateTime.Now;
         public DateTime? UpdatedAt { get; set; }
+        public List<User> users { get; set; }
+        public List<Permission> Permissions { get; set; }
     }
 }

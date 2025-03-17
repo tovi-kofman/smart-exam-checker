@@ -13,8 +13,8 @@ namespace Server.Data
     {
 
         public DbSet<Exam> Exams { get; set; }
-        public DbSet<Grade> Grades { get; set; }
-        public DbSet<Institution> Institutions { get; set; }
+        //public DbSet<Grade> Grades { get; set; }
+        //public DbSet<Institution> Institutions { get; set; }
         public DbSet<Permission> Permissions { get; set; }
         public DbSet<Role> Roles { get; set; }
         public DbSet<Tag> Tags { get; set; }
@@ -26,6 +26,9 @@ namespace Server.Data
             return base.Entry(entity);
         }
 
-
+        public async Task<int> SaveChangesAsync()
+        {
+            return await base.SaveChangesAsync();
+        }
     }
 }

@@ -13,14 +13,15 @@ namespace Server.Data
     public interface IDataContext
     {
         public DbSet<Exam> Exams { get; set; }
-        public DbSet<Grade> Grades { get; set; }
-        public DbSet<Institution> Institutions { get; set; }
+        //public DbSet<Grade> Grades { get; set; }
+        //public DbSet<Institution> Institutions { get; set; }
         public DbSet<Permission> Permissions { get; set; }
         public DbSet<Role> Roles { get; set; }
         public DbSet<Tag> Tags { get; set; }
         public DbSet<Topic> Topics { get; set; }
         public DbSet<User> Users { get; set; }
         EntityEntry Entry(object entity);
-        public int SaveChanges();
+        public Task<int> SaveChangesAsync();
+
     }
 }

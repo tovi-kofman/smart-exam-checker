@@ -14,12 +14,12 @@ namespace Server.Core.IRepository
             IExamRepository Exams { get; }
             IRoleRepository Roles { get; }
             IPermissionRepository Permissions { get; }
-            IGradeRepository Grades { get; }
+            //IGradeRepository Grades { get; }
             ITagRepository Tags { get; }
             ITopicRepository Topics { get; }
-            IInstitutionRepository Institutions { get; }
+            //IInstitutionRepository Institutions { get; }
 
-            void Save();
+            Task SaveAsync();
         
     }
 }

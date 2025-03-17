@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Server.Core.Dtos;
+using Server.Core.Entities;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -9,10 +11,10 @@ namespace Server.Core.IServices
 {
     public interface IExamService
     {
-        List<string> GetAllExams();
-        string GetById(int id);
-        string AddExam(string examName);
-        void DeleteExam(string examName);
-        string UpdateExam(int id, string examName);
+        Task<List<ExamDto>> GetAllExamsAsync();
+        Task<ExamDto> GetByIdAsync(int id);
+        Task<ExamDto> AddExamAsync(ExamDto exam);
+        Task DeleteExamAsync(ExamDto exam);
+        Task<ExamDto> UpdateExamAsync(int id, ExamDto exam);
     }
 }

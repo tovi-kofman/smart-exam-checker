@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Server.Core.Dtos;
+using Server.Core.Entities;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -9,10 +11,12 @@ namespace Server.Core.IServices
 {
     public interface IPermissionService
     {
-        List<string> GetUserPermissions(string userId);
-        string GetPermissionById(string userId, int index);
-        void GrantPermission(string userId, string permission);
-        void DeletePermission(string userId, int index);
-        void UpdatePermission(string userId, int index, string newPermission);
+
+        Task<List<PermissionDto>> GetAllPermissionsAsync();
+        Task<PermissionDto> GetByIdAsync(int id);
+        Task<PermissionDto> AddPermissionAsync(PermissionDto permission);
+        Task DeletePermissionAsync(PermissionDto permission);
+        Task<PermissionDto> UpdatePermissionAsync(int id, PermissionDto permission);
+
     }
-}}
+}

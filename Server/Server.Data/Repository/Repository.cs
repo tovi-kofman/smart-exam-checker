@@ -18,30 +18,31 @@ namespace Server.Data.Repository
             _dataContext = context;
             _dbSet = context.Set<T>();
         }
-        public T Add(T entity)
+        public async Task<T> AddAsync(T entity)
         {
-            _dbSet.Add(entity);
+            await _dbSet.AddAsync(entity);
             return entity;
         }
 
-        public void Delete(T entity)
+        public async Task DeleteAsync(T entity)
         {
             _dbSet.Remove(entity);
+            await _dataContext.SaveChangesAsync();
         }
 
-
-        public IEnumerable<T> GetAll()
+        public async Task<IEnumerable<T>> GetAllAsync()
         {
-            return _dbSet.ToList();
+            return await _dbSet.ToListAsync();
         }
 
-        public T? GetById(int id)
+        public async Task<T?> GetByIdAsync(int id)
         {
-            return _dbSet.Find(id);
+            return await _dbSet.FindAsync(id);
         }
-        public T Update(int id, T entity)
+
+        public async Task<T> UpdateAsync(int id, T entity)
         {
-            var existingEntity = _dbSet.Find(id);
+            var existingEntity = await _dbSet.FindAsync(id);
             if (existingEntity != null)
             {
                 var properties = typeof(T).GetProperties();
@@ -54,10 +55,10 @@ namespace Server.Data.Repository
                     }
                 }
                 _dataContext.Entry(existingEntity).State = EntityState.Modified;
+                await _dataContext.SaveChangesAsync();
                 return existingEntity;
             }
             return null;
-
         }
 
 

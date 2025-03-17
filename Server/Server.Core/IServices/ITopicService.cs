@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Server.Core.Dtos;
+using Server.Core.Entities;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -9,10 +11,10 @@ namespace Server.Core.IServices
 {
     public interface ITopicService
     {
-        List<string> GetAllTopics();
-        string GetById(int id);
-        string AddTopic(string topicName);
-        void DeleteTopic(string topicName);
-        string UpdateTopic(int id, string topicName);
+        Task<List<TopicDto>> GetAllTopicsAsync();
+        Task<TopicDto> GetByIdAsync(int id);
+        Task<TopicDto> AddTopicAsync(TopicDto topic);
+        Task DeleteTopicAsync(TopicDto topic);
+        Task<TopicDto> UpdateTopicAsync(int id, TopicDto topic);
     }
 }

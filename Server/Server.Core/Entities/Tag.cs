@@ -10,5 +10,7 @@ namespace Server.Core.Entities
     {
         public int Id { get; set; }
         public string Name { get; set; }
+
+        public List<Exam> exams { get; set; }
     }
 }

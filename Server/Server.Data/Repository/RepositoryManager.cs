@@ -13,8 +13,8 @@ namespace Server.Data.Repository
 
         public IUserRepository Users { get; }
         public IExamRepository Exams { get; }
-        public IGradeRepository Grades { get; }
-        public IInstitutionRepository Institutions { get; }
+        //public IGradeRepository Grades { get; }
+        //public IInstitutionRepository Institutions { get; }
         public IPermissionRepository Permissions { get; }
         public IRoleRepository Roles { get; }
         public ITagRepository Tags { get; }
@@ -24,8 +24,8 @@ namespace Server.Data.Repository
             IDataContext context,
             IUserRepository userRepository,
             IExamRepository examRepository,
-            IGradeRepository gradeRepository,
-            IInstitutionRepository institutionRepository,
+            //IGradeRepository gradeRepository,
+            //IInstitutionRepository institutionRepository,
             IPermissionRepository permissionRepository,
             IRoleRepository roleRepository,
             ITagRepository tagRepository,
@@ -34,17 +34,17 @@ namespace Server.Data.Repository
             _context = context;
             Users = userRepository;
             Exams = examRepository;
-            Grades = gradeRepository;
-            Institutions = institutionRepository;
+            //Grades = gradeRepository;
+            //Institutions = institutionRepository;
             Permissions = permissionRepository;
             Roles = roleRepository;
             Tags = tagRepository;
             Topics = topicRepository;
         }
 
-        public void Save()
+        public async Task SaveAsync()
         {
-            _context.SaveChanges();
+           await  _context.SaveChangesAsync();
         }
     }
 }

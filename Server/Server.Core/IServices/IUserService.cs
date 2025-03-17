@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Server.Core.Dtos;
+using Server.Core.Entities;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,11 +10,12 @@ namespace Server.Core.IServices
 {
     public interface IUserService
     {
-        List<string> GetAllUsers();
-        string GetById(int id);
-        string AddUser(string userName);
-        void DeleteUser(string userName);
-        string UpdateUser(int id, string userName);
+        Task<List<UserDto>> GetAllUsersAsync();
+        Task<UserDto> GetByIdAsync(int id);
+        Task<UserDto> GetByUserNameAsync(string username);
+        Task<UserDto> AddUserAsync(UserDto user);
+        Task DeleteUserAsync(UserDto user);
+        Task<UserDto> UpdateUserAsync(int id, UserDto user);
     }
 }
-}
+
