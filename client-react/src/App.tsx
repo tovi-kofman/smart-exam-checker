@@ -15,6 +15,7 @@ import { RouterProvider } from "react-router-dom";
 import UserReducer, { UserContext, initialUserState } from "./context/UserReducer";
 import { router } from "./AppRoutes";
 import { useReducer } from "react";
+import { ExamProvider } from "./context/ExamContext";
 
     
 const App = () => {
@@ -33,10 +34,12 @@ const App = () => {
         // </Router>
         <>
         {/* <GradeExam/> */}
+        <ExamProvider>
         <UserContext value={{ user, userDispatch }}>
-           
+          
       <RouterProvider router={router} />
   </UserContext>
+  </ExamProvider>
         </>
     );
 };

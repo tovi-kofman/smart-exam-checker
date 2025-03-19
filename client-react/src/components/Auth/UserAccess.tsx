@@ -26,23 +26,7 @@ const UserAccess = () => {
         <>
             {user==initialUserState ? (
                 <>
-                    {/* <Button 
-                        style={{
-                            backgroundColor: 'transparent',
-                            color: 'black',
-                            border: 'none',
-                            padding: '0',
-                            fontSize: 'normal',
-                            fontWeight: '545', 
-                            cursor: 'pointer',
-                            textTransform: 'none',
-                            outline: 'none',
-                            boxShadow: 'none',
-                        }}
-                        onClick={handleOpen} 
-                    >
-                        Sign In
-                    </Button> */}
+                    
                 </>
             ) : (
             <UserProfile />
