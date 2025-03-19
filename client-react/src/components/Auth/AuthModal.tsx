@@ -2,6 +2,8 @@ import { Box, Button, Modal, TextField } from "@mui/material";
 import { FormEvent, forwardRef, useContext, useImperativeHandle, useRef } from "react";
 import { UserContext } from "../../context/UserReducer";
 import { UserType } from "../../models/User";
+import { StoreType } from "../../store/Store";
+import { useSelector } from "react-redux";
 
 interface UserModalProps {
     open: boolean;
@@ -13,7 +15,8 @@ interface UserModalProps {
 }
 
 const AuthModal = forwardRef(({ open, onClose, onSubmit, initialData = { firstName: '', lastName: '', email: '', password: '', address: '', phoneNumber: '' }, title, type }: UserModalProps, ref) => {
-    const { user } = useContext(UserContext);
+    // const { user } = useContext(UserContext);
+    const user = useSelector((state: StoreType) => state.auth.user)
     const inputRefs = useRef<{ [key: string | number]: HTMLInputElement | null }>({
         firstName: null,
         lastName: null,
@@ -72,7 +75,7 @@ const AuthModal = forwardRef(({ open, onClose, onSubmit, initialData = { firstNa
                             fullWidth
                             margin="normal"
                             required
-                            defaultValue={user.firstName}
+                            defaultValue={user?.firstName}
                             inputRef={(el) => (inputRefs.current.firstName = el)}
                         />
                         {/* <TextField 
@@ -94,7 +97,7 @@ const AuthModal = forwardRef(({ open, onClose, onSubmit, initialData = { firstNa
                         margin="normal"
                         required
                         inputRef={(el) => (inputRefs.current.password = el)}
-                        defaultValue={user.password}
+                        defaultValue={user?.password}
                     />
                     {type === 'update' && (
                         <>
@@ -105,7 +108,7 @@ const AuthModal = forwardRef(({ open, onClose, onSubmit, initialData = { firstNa
                         margin="normal"
                         required
                         type="email"
-                        defaultValue={user.email}
+                        defaultValue={user?.email}
                         inputRef={(el) => (inputRefs.current.email = el)}
                     />
                             <TextField
@@ -123,7 +126,7 @@ const AuthModal = forwardRef(({ open, onClose, onSubmit, initialData = { firstNa
                                 fullWidth
                                 margin="normal"
                                 required
-                                defaultValue={user.phoneNumber}
+                                defaultValue={user?.phoneNumber}
                                 inputRef={(el) => (inputRefs.current.phoneNumber = el)}
                             />
                         </>
